@@ -1,0 +1,29 @@
+### Gradle template
+.gradle
+/build/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+### Maven template
+target/
+
+
+# User-specific stuff:
+.idea/
+
+# IntelliJ
+out/
+
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+!gradle-wrapper.properties
+
+# IDEA Files
+*.iml
