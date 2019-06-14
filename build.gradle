@@ -29,7 +29,7 @@ dependencies {
     compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.7'
 
     compile "com.squareup.retrofit2:retrofit:${retrofitVersion}"
-    compile 'com.squareup.retrofit2:converter-gson:2.1.0'
+    compile "com.squareup.retrofit2:converter-gson:${retrofitVersion}"
     compile group: 'com.squareup.okhttp3', name: 'logging-interceptor', version: '3.14.2'
     compile group: 'org.apache.httpcomponents', name: 'httpclient', version: '4.5.8'
 
